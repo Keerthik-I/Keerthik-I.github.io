@@ -1,23 +1,101 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-<meta charset="utf-8">
-<title>Homepage</title>
-<meta name="keywords" content="Keerthik Iyer Introduction Personal Website">
-<meta name="description" content="Keerthik Iyer Personal Website Portfolio Homepage">
-<link href="assets/portfolio_styles.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8" />
+    <title>WEB-115 Final Project</title>
+    <img src="Banner.jpg"></img>
 </head>
-
 <body>
-<nav class="Menu bar">
-  <header><a href="index.html">Homepage</a> - <a href="about_me.html">About Me</a> - <a href="skills.html">Skills</a></header>
-</nav>
-<h1 dir="ltr">Welcome</h1>
-<p dir="ltr">Hello, my name is Keerthik Iyer, and welcome to my personal website. I am a 22-year-old from North Carolina with aspirations in programming and data analysis. I&rsquo;ve been learning programming skills for nearly 5 years now, and much of that is broad skills over multiple different languages. This website will serve as an introduction to me and what I can do. The About Me page will be a more thorough introduction to who I am and how I came to be what I am today. The Skills page will an introduction to the skills that I have picked up through my years both in school, in the workplace, and on my own time. Finally, the Blog will be a place to see my most recent work and thoughts, in the form of short personal posts. Thanks for visiting and I hope you have a wonderful day.<br>
-  <br>
-  <a href="mailto:iyerkeerthik@gmail.com">Contact Me</a>
-  <br>
-</p>
-<p><img src="assets/Keerthik_Iyer.jpg" alt="Picture of me" width="386" height="283"></p>
+<form id="mealPlanForm">
+    <label for="sunBreak">Sunday: <br> Breakfast:</label>
+    <input type="text" id="sunBreak"></input>
+    <label for="sunSnack1">Snack:</label>
+    <input type="text" id="sunSnack1"></input>
+    <label for="sunLunch">Lunch:</label>
+    <input type="text" id="sunLunch"></input>
+    <label for="sunSnack2">Snack:</label>
+    <input type="text" id="sunSnack2"></input>
+    <label for="sunDinner">Dinner:</label>
+    <input type="text" id="sunDinner"></input> <br>
+
+    <label for="monBreak">Monday: <br> Breakfast:</label>
+    <input type="text" id="monBreak"></input>
+    <label for="monSnack1">Snack:</label>
+    <input type="text" id="monSnack1"></input>
+    <label for="monLunch">Lunch:</label>
+    <input type="text" id="monLunch"></input>
+    <label for="monSnack2">Snack:</label>
+    <input type="text" id="monSnack2"></input>
+    <label for="monDinner">Dinner:</label>
+    <input type="text" id="monDinner"></input> <br>
+
+    <label for="tueBreak">Tuesday: <br> Breakfast:</label>
+    <input type="text" id="tueBreak"></input>
+    <label for="tueSnack1">Snack:</label>
+    <input type="text" id="tueSnack1"></input>
+    <label for="tueLunch">Lunch:</label>
+    <input type="text" id="tueLunch"></input>
+    <label for="tueSnack2">Snack:</label>
+    <input type="text" id="tueSnack2"></input>
+    <label for="tueDinner">Dinner:</label>
+    <input type="text" id="tueDinner"></input> <br>
+
+    <label for="wedBreak">Wednesday: <br> Breakfast:</label>
+    <input type="text" id="wedBreak"></input>
+    <label for="wedSnack1">Snack:</label>
+    <input type="text" id="wedSnack1"></input>
+    <label for="wedLunch">Lunch:</label>
+    <input type="text" id="wedLunch"></input>
+    <label for="wedSnack2">Snack:</label>
+    <input type="text" id="wedSnack2"></input>
+    <label for="wedDinner">Dinner:</label>
+    <input type="text" id="wedDinner"></input> <br>
+
+    <label for="thuBreak">Thursday: <br> Breakfast:</label>
+    <input type="text" id="thuBreak"></input>
+    <label for="thuSnack1">Snack:</label>
+    <input type="text" id="thuSnack1"></input>
+    <label for="thuLunch">Lunch:</label>
+    <input type="text" id="thuLunch"></input>
+    <label for="thuSnack2">Snack:</label>
+    <input type="text" id="thuSnack2"></input>
+    <label for="thuDinner">Dinner:</label>
+    <input type="text" id="thuDinner"></input> <br>
+
+    <label for="friBreak">Friday: <br> Breakfast:</label>
+    <input type="text" id="friBreak"></input>
+    <label for="friSnack1">Snack:</label>
+    <input type="text" id="friSnack1"></input>
+    <label for="friLunch">Lunch:</label>
+    <input type="text" id="friLunch"></input>
+    <label for="friSnack2">Snack:</label>
+    <input type="text" id="friSnack2"></input>
+    <label for="friDinner">Dinner:</label>
+    <input type="text" id="friDinner"></input> <br>
+
+    <label for="satBreak">Saturday: <br> Breakfast:</label>
+    <input type="text" id="satBreak"></input>
+    <label for="satSnack1">Snack:</label>
+    <input type="text" id="satSnack1"></input>
+    <label for="satLunch">Lunch:</label>
+    <input type="text" id="satLunch"></input>
+    <label for="satSnack2">Snack:</label>
+    <input type="text" id="satSnack2"></input>
+    <label for="satDinner">Dinner:</label>
+    <input type="text" id="satDinner"></input> <br>
+    
+    <label for="name">Name:</label>
+    <input type="text" id="name"></input>
+    <label for="email">Email:</label>
+    <input type="text" id="email"></input>
+    <label for="goal">Goal:</label>
+    <input type="text" id="goal"></input>
+
+</form>
+<button id="submitbutton">Submit</button>
+<button id="clearbutton">Clear</button>
+<button id="printbutton">Print/Download(Change Printer/Destination to save as PDF)</button>
+
+<script src="projectJS.js" defer></script>
 </body>
 </html>
